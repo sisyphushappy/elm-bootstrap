@@ -514,7 +514,7 @@ renderToggle state configRec ((Card cardRec) as card_) =
             headerRec.toggle
     in
     Html.button
-        ([ class "btn btn-link"
+        ([ class "button btn btn-link"
          , custom "click" <|
             clickHandler state configRec heightDecoder card_
          ]
